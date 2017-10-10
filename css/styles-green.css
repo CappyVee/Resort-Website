@@ -4,7 +4,7 @@ body {
 h1 {
   font-family: 'Nosifer', cursive;
   text-align: center;
-  color: #A00;
+  color: #060;
   font-size: 3em;
 }
 h2 {
@@ -17,15 +17,17 @@ li {
 }
 hr {
   border-width: 5px;
+  border-color: red;
 }
 a {
   font-size: 1.5em;
+  display: block;
 }
 a::before {
-    content: " -";
+    content: " →";
 }
 a::after {
-    content: "- ";
+    content: "← ";
 }
 img {
   margin: auto;
