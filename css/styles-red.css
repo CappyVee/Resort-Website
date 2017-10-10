@@ -1,0 +1,33 @@
+body {
+  background-color: #888;
+}
+h1 {
+  font-family: 'Nosifer', cursive;
+  text-align: center;
+  color: #A00;
+  font-size: 3em;
+}
+h2 {
+  font-variant: small-caps;
+  font-size: 2em;
+}
+li {
+  letter-spacing: .3em;
+  font-weight: 900;
+}
+hr {
+  border-width: 5px;
+}
+a {
+  font-size: 1.5em;
+}
+a::before {
+    content: " -";
+}
+a::after {
+    content: "- ";
+}
+img {
+  margin: auto;
+  display: block;
+}
